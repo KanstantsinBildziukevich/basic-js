@@ -1,4 +1,4 @@
-module.exports = function repeater(/* str, options */) {
+module.exports = function repeater(str, options) {
     st = String(str);
     st_result = '';
     let repeatTimes = (options.repeatTimes) ? Number(options.repeatTimes) : 1;

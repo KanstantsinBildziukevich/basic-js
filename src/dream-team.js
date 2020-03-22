@@ -1,4 +1,4 @@
-module.exports = function createDreamTeam(/* members */) {
+module.exports = function createDreamTeam(members) {
   team = '';
   if (!Array.isArray(members) || members.length === 0 ) return false;
   good_members = []
